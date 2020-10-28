@@ -39,3 +39,6 @@ A training step is one gradient update. In one step batch_size many examples are
 An epoch consists of one full cycle through the training data. This is usually many steps. As an example, if you have 2,000 images and use a batch size of 10 an epoch consists of 2,000 images / (10 images / step) = 200 steps.
 
 If you choose our training image randomly (and independent) in each step, you normally do not call it epoch. [This is where my answer differs from the previous one. Also see my comment.]
+
+---
+Aritifically augmenting data from r trianing set is something cool/important to do 
